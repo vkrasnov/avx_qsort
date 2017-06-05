@@ -1,0 +1,5 @@
+This repository contains the code used to benchmark: https://academic.oup.com/comjnl/article-abstract/59/1/83/2568602/Fast-Quicksort-Implementation-Using-AVX.
+
+Not currently structured, it can be used as a reference point.
+
+The quicksort implementation, while slower for the common types than the Intel IPP library that uses radix sort, at least for simple arrays, is significantly faster when there is nee to sort by a key greater than 8 bytes, or more than one key.
